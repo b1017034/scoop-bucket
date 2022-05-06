@@ -18,7 +18,7 @@
             "extract_dir": "tuxguitar-1.5.6-windows-x86"
         }
     },
-    "pre_install": "Add-Content \"$dir\\tuxguitar.ini\" \"vm.location=%JAVA_HOME%/bin/server/jvm.dll\"",
+    "pre_install": "Add-Content \"$dir\\tuxguitar.ini\" \"vm.location=%JAVA_HOME%/bin/client/jvm.dll\"",
     "bin": "tuxguitar.exe",
     "shortcuts": [
         [
