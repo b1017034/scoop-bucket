@@ -31,7 +31,7 @@
             }
         }
     },
-    "bin": "tuxguitar.exe"
+    "bin": "tuxguitar.exe",
     "shortcuts": [
           [
               "tuxguitar.exe",
