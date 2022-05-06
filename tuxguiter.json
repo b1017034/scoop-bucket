@@ -4,6 +4,11 @@
     "homepage": "http://www.tuxguitar.com.ar/",
     "license": "GNU Lesser General Public License",
     "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/projects/tuxguitar/files/TuxGuitar/TuxGuitar-1.5.6/tuxguitar-1.5.6-windows-x86.zip",
+            "hash": "sha1:15f74237a9178ae45206bcb9bd2ec7514804cdc8",
+            "extract_dir": "tuxguitar-1.5.6-windows-x86"
+        },
         "32bit": {
             "url": "https://downloads.sourceforge.net/projects/tuxguitar/files/TuxGuitar/TuxGuitar-1.5.6/tuxguitar-1.5.6-windows-x86.zip",
             "hash": "sha1:15f74237a9178ae45206bcb9bd2ec7514804cdc8",
@@ -16,6 +21,10 @@
     },
     "autoupdate": {
       "architecture": {
+          "64bit": {
+                "url": "https://downloads.sourceforge.net/projects/tuxguitar/files/TuxGuitar/TuxGuitar-$version/tuxguitar-$version-windows-x86.zip",
+                "extract_dir": "tuxguitar-$version-windows-x86"
+            },
             "32bit": {
                 "url": "https://downloads.sourceforge.net/projects/tuxguitar/files/TuxGuitar/TuxGuitar-$version/tuxguitar-$version-windows-x86.zip",
                 "extract_dir": "tuxguitar-$version-windows-x86"
